@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-19T21:29:02 IST" name="All Test Suite" finished-at="2022-02-19T21:29:16 IST" duration-ms="13714">
+    <groups>
+      <group name="Sanity">
+        <method signature="taskTest.homeAssignment()[pri:1, instance:tests.taskTest@32910148]" name="homeAssignment" class="tests.taskTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-02-19T21:29:02 IST" name="Chrome Sanity Tests" finished-at="2022-02-19T21:29:16 IST" duration-ms="13714">
+      <class name="tests.taskTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.taskTest@32910148]" started-at="2022-02-19T21:29:03 IST" name="setup" finished-at="2022-02-19T21:29:08 IST" duration-ms="5229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ce3db41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homeAssignment()[pri:1, instance:tests.taskTest@32910148]" started-at="2022-02-19T21:29:08 IST" name="homeAssignment" description="Performs steps defined in home assignment spec" finished-at="2022-02-19T21:29:16 IST" duration-ms="7499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAssignment -->
+        <test-method is-config="true" signature="closeMethod()[pri:0, instance:tests.taskTest@32910148]" started-at="2022-02-19T21:29:16 IST" name="closeMethod" finished-at="2022-02-19T21:29:16 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+      </class> <!-- tests.taskTest -->
+    </test> <!-- Chrome Sanity Tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
